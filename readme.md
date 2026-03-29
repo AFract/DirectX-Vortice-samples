@@ -1,4 +1,6 @@
-This program uses C# Vortice.XAudio2 DirectX's XAudio2 wrapper to play a sound on each speaker of a 5.1 surround system (Vortice version 3.8.2, last available in march 2026)
+## Surround test
+
+This program uses C# **Vortice.XAudio2** DirectX's XAudio2 wrapper to play a sound on each speaker of a 5.1 surround system (Vortice version 3.8.2, last available in march 2026)
 
 It's a console program (I plan to make it visual later), with so far 5 features :
 
@@ -8,9 +10,9 @@ It's a console program (I plan to make it visual later), with so far 5 features 
 - Split a single WAV file in 6 different chunks using MediaFoundation, read each of them on each speaker,
 - Read pure sine by rotating around the listener (instead of using fixed position for each speaker)
 
-Each feature is available by keys 1 to 5 in Console program.
+Each feature is available by keys 1 to 5 of the Console program.
 
 To build and run it, you just need to install Visual Studio 2026.
 
-I'm neither expert of DirectX or Vortice, therefore this is not "state of the art" implementation, just a finely working one.
-The program works great on my high end computer, I have no idea on how it will behave on yours depending of your setup, and I won't provide technical support to help you with it.
+I'm neither an expert of DirectX nor Vortice, therefore this is definitely not "state of the art" implementation, just a working one for my own entertainment that I'm happy to share with anyone.
+The program works great on my high end windows computer, I have no idea on how it will behave on yours depending of your OS and hardware setup, and I won't provide technical support to help you with it.
