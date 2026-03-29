@@ -16,3 +16,4 @@ To build and run it, you just need to install Visual Studio 2026.
 
 I'm neither an expert of DirectX nor Vortice, therefore this is definitely not "state of the art" implementation, just a working one for my own entertainment that I'm happy to share with anyone.
 The program works great on my high end windows computer, I have no idea on how it will behave on yours depending of your OS and hardware setup, and I won't provide technical support to help you with it.
+Anyway, feel free to comment, create issue or even open pull requests if you wish.
